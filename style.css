@@ -1,0 +1,81 @@
+/* Global Properties */
+html {
+    scroll-behavior: smooth;
+  }
+    
+body {
+    background: url(https://cdn.pling.com/img//hive/content-pre1/174365-1.jpg);
+    height: 100vh;
+    -webkit-background-size:cover ;
+    background-size: cover;
+    background-position: center center ;
+    position: relative;
+  }
+
+  body h5{
+    font-size: 1.1cm;
+    font-style: normal;
+  }
+  
+  /* Main Heading Font */
+  .m-heading {
+    font-family: "Roboto Slab", serif;
+  }
+  
+  /* Navigation */
+  .navigation-link{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    }
+  .navigation-link {
+text-decoration: none;
+color: #272727;
+line-height: 100px;
+padding: 5px 20px;
+border: 1px solid #272727;
+transition: 0.6s ease;
+font-size: 13px;
+letter-spacing: 0.5px;
+  }
+  
+  .navigation-link:hover {
+    background-color: #f5ba09; 
+  }
+  
+  /* Main Container height*/
+  .main-container {
+    height: 100vh;
+  }
+  
+  /* Aligning items in main row */
+  .main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Changing Name Font sixe */
+  .main_row h1 {
+    font-size: 5rem;
+  }
+  /* About Section */
+  #about h3{
+font-size: 1.1cm; 
+font-style: normal;   
+color: darkorange;  
+  }
+.about p{
+ font-size: 0.8cm;
+ font-style: normal;
+ color: #fff; 
+}
+
+  #contact {
+    background: dimgray;
+  }
+  .contact tr th{
+   font-size: 10px;
+   font-style: italic;
+  }
+
